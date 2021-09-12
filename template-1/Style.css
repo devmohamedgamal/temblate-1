@@ -1,6 +1,5 @@
 ﻿body {
     margin: 0;
-    //background-color:#ededed;
 }
 .all {
     height:600px;
@@ -20,6 +19,7 @@
     font-size: 60px;
     font-family: 'Quicksand', sans-serif;
     padding-top:160px;
+    font-weight: 100;
 }
 .p {
     color: white;
@@ -74,7 +74,6 @@
 .profile_img{
     width:25%;
     height:100%;
-   // background-color:blueviolet;
    float:left;
 }
 .profile_img img{
@@ -120,7 +119,6 @@
 }
 .profile_info{
     float:left;
-   // background-color:red;
     width:75%;
     height:100%;
 
@@ -146,7 +144,6 @@
 .all_items{
     width:85%;
     height:100%;
-   // background-color:blue;
     margin:auto;
 }
 .item{
@@ -158,6 +155,12 @@
     font-size:20px;
     font-weight:bold;
 
+}
+.item:hover{
+    background-color:darkorange;
+    transition-duration:0.5s;
+    cursor:pointer;
+    font-size:25px;
 }
 .item div{
     text-align:center;
@@ -177,7 +180,6 @@
     background-color:darkcyan;
     float: left;
     text-align:center;
-    //padding-top:60px;
 }
 .item_text div {
     padding-top: 60px;
@@ -189,14 +191,12 @@
 .beautiful_experiences{
     width:100%;
     height:600px;
-    //background-color:white;
 
 
 }
 .header{
     width:70%;
     height:25%;
-    //background-color:darkgreen;
     margin:auto;
 }
 .header_font{
@@ -211,16 +211,13 @@
 .vector{
     width:90%;
     height:60%;
-  //  background-color:white;
     margin:auto;
     margin-top:50px;
 }
 .img1{
     width:25%;
     height:100%;
-    //background-color:deeppink;
     float:left;
-    //margin-left:20px;
 
 }
 .img1 img{
@@ -230,7 +227,6 @@
 .vector_text{
     width:50%;
     height:100%;
-   // background-color:lawngreen;
     float:left;
 }
 .h3{
@@ -273,7 +269,6 @@
 .some_text{
     width:80%;
     height:20%;
-   // background-color:red;
     margin:auto;
     padding-top:70px;
 }
@@ -290,14 +285,12 @@
 .projects{
     width:85%;
     height:50%;
-    //background-color:firebrick;
     margin:auto;
     margin-top:40px;
 }
 .img_prj{
     width:65%;
     height:100%;
-    //background-color:chartreuse;
     float:left;
 
 }
@@ -331,7 +324,6 @@
 .headform{
     width:100%;
     height:30%;
-    //background-color:blueviolet;
     padding-top:40px;
 }
 .headform h3{
@@ -347,7 +339,6 @@
 .form_info{
     width:100%;
     height:70%;
-    //background-color:coral;
 }
 .name{
     border:1px solid gray;
@@ -357,6 +348,7 @@
     height:33px;
     border-radius:6px;
     padding-left:15px;
+    outline-color:mediumvioletred;
 }
 .email {
     border: 1px solid gray;
@@ -364,6 +356,7 @@
     height: 33px;
     border-radius: 6px;
     padding-left:15px;
+    outline-color:mediumvioletred;
 }
 .massage {
     border: 1px solid gray;
@@ -372,6 +365,7 @@
     margin-left:280px;
     margin-top:10px;
     border-radius:6px;
+    outline-color:mediumvioletred;
 
 }
 .sendbutton{
@@ -425,8 +419,7 @@
     border-radius:20px;
     border:0;
     background-color:whitesmoke;
-    outline:0;
-    
+    outline:none;    
 }
 .btnemail{
     width:150px;
@@ -438,7 +431,7 @@
 }
 .btnemail:hover{
     width:150px;
-    height:35px;
+    height:40px;
     border: 0;
     border-radius:20px;
     outline:0;
@@ -446,11 +439,12 @@
     color:white;
     cursor:pointer;
     transition-duration:0.5s;
+    
 }
 .last{
     width:100%;
     height:500px;
-    background-color:lightseagreen;
+    background-color:darkslategrey;
 }
 .about{
     width:200px;
@@ -458,7 +452,6 @@
     float:left;
     margin-left:80px;
     margin-top:120px;
-   // background-color:darkred;
     text-align:center;
     padding-top:20PX;
     color:white;
@@ -472,10 +465,14 @@
     text-align:center;
     text-decoration:none;
     margin:5px 2px;
-    border-radius:50%;
+    border-radius:50% 20%;
+    
 }
 .fa:hover{
-    opacity:0.7;
+    border-radius:30px;
+    width:50px;
+    transition-duration:0.5s;
+    background-color:darkorchid;
 }
 .fa-facebook {
     background-color: #3B5998;
@@ -494,7 +491,7 @@
     color:white;
 }
 .social{
-    padding-top:420px;
+    padding-top:40px;
     float:right;
     margin-right:40px;
     width:300px;
@@ -506,3 +503,36 @@
     margin-right:50px;
               
 }
+.copyright{
+    position:relative;
+    bottom:100px;
+    left:80px;
+    color:white;
+    float:left;
+    font-family:'Microsoft New Tai Lue';
+
+}
+.lastimg{
+    width:400px;
+    height:230px;
+    margin:0;
+    margin-top:140px;
+    margin-right:50px;
+}
+.lasttext{
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+    width:100%;
+    height:10%;
+}
+.d{
+    width:100%;
+    height:90%;
+    margin-top:10px;
+}
+.color {
+    color: goldenrod;
+    font-family: 'Pacifico', cursive;
+}
+
